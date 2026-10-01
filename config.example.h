@@ -1,0 +1,24 @@
+#pragma once
+
+// Copy to config.h for local use. Never place real credentials in this example.
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+#define LINE_CHANNEL_ACCESS_TOKEN "YOUR_LINE_CHANNEL_ACCESS_TOKEN"
+#define LINE_USER_ID "YOUR_LINE_USER_ID"
+#define IFTTT_WEBHOOK_URL "YOUR_IFTTT_WEBHOOK_URL"
+#define IFTTT_WEBHOOK_KEY "YOUR_IFTTT_WEBHOOK_KEY"
+
+// PIR board Wi-Fi settings.
+#define PIR_WIFI_SSID "YOUR_PIR_WIFI_SSID"
+#define PIR_WIFI_PASSWORD "YOUR_PIR_WIFI_PASSWORD"
+
+// CAMERA board Wi-Fi settings.
+#define CAMERA_WIFI_SSID "YOUR_CAMERA_WIFI_SSID"
+#define CAMERA_WIFI_PASSWORD "YOUR_CAMERA_WIFI_PASSWORD"
+
+// Voice-control board Wi-Fi settings.
+#define VOICE_WIFI_SSID "YOUR_VOICE_WIFI_SSID"
+#define VOICE_WIFI_PASSWORD "YOUR_VOICE_WIFI_PASSWORD"
+
+// Camera link included in LINE alerts.
+#define CAMERA_MONITORING_URL "http://YOUR_CAMERA_HOST"
